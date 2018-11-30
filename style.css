@@ -1,3 +1,74 @@
+#site-title {
+	font-size: 45px;
+	text-align: center;
+}
+body{
+	background-image:linear-gradient(to top, #F01B1B, #8B2121);
+	position: relative;
+	font-family: 'Inconsolata', monospace;
+	color:#fff /*rgb(12, 39, 12)*/;
+	font-size:24px;
+}
+
+
+#wrapper {
+	width:768px;
+	margin: 30px auto 30px auto;
+	position;relative;
+}
+
+li {
+	list-style: none;
+}
+
+#computed {
+	display: flex;
+	width: 768px;
+}
+#player1, #player2 {
+	width: 384px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.separator{
+	background-color: white;
+	height:2px;
+	width:45%;
+	margin-bottom: 30px;
+}
+
+#form {
+	position:absolute;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	width: 768px;
+}
+
+.input{
+	border: none;
+	border-bottom: 2px solid #fff;
+	background: none;
+}
+
+#button {
+	background: none;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	margin-top:20px;
+	color:white;
+	padding: 5px 30px;
+
+}
+
+#button:hover {
+	background-color: white;
+	color: 8B2121;
+}
+
+
 .character-picture {
 	height:200px
 }
