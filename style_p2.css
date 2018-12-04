@@ -1,0 +1,99 @@
+#site-title {
+	font-size: 45px;
+	text-align: center;
+}
+body{
+	background-image:linear-gradient(to top, #F01B1B, #8B2121);
+	position: relative;
+	font-family: 'Inconsolata', monospace;
+	color:#fff /*rgb(12, 39, 12)*/;
+	font-size:24px;
+}
+
+
+#wrapper {
+	width:768px;
+	margin: 30px auto 30px auto;
+	position:relative;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#computed {
+	display: flex;
+	width: 768px;
+}
+#player1, #player2 {
+	width: 384px;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+
+.separator{
+	background-color: white;
+	height:2px;
+	width:100%;
+	margin-bottom: 30px;
+}
+
+.presPlayer{
+	display: flex;
+}
+
+#button, #retry {
+	background: none;
+	border-radius: 20px;
+	margin-top:20px;
+	padding: 5px 30px;
+
+}
+#button {
+	border: 2px solid #fff;
+	color:white;
+}
+#button:hover {
+	background-color: white;
+	color: 8B2121;
+}
+
+
+.character-picture {
+	height:100px;
+	margin-right: 10px;
+}
+.pokemon-picture {
+	height:200px;
+}
+
+#modal{
+	background-color: white;
+	color: red;
+	width: 400px;
+	height: 400px;
+	border-radius: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.picture-inactive{
+	display:none;
+}
+.winner-picture{
+	height: 200px;
+}
+.text {
+	display:flex;
+}
+
+#retry {
+	border: 2px solid red;
+	color:red;
+}
+#retry:hover {
+	background-color: red;
+	color: white;
+}

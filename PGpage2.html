@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>FIGHT!</title>
+		<link rel="stylesheet" href="style_p2.css">
+		<link rel="stylesheet" href="normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,
+		maximum-scale=1.0, user-scalable=no">
+
+	</head>
+	<body>
+		<h1 id="site-title">Poke Gamble</h1>
+		<div id="wrapper">
+			<section id="computed">
+				<section id="player1">
+					<section class="presPlayer">
+					<h2 id="name1">NomPlayer 1</h2>
+						<section>
+							<img id="Misty" class="character-picture"
+							alt="picture of the character" src="img/misty.png"/>
+							<div class="separator"></div>
+						</section>
+					</section>
+					<img id="imgPokemon1" class="pokemon-picture"
+					alt="pokemon1" src="img/Togepi.png"/>
+					<h3 id="name-pokemon1">NomPokemon1</h3>
+				</section>
+				
+				
+				<section id="player2">
+					<section class="presPlayer">
+						<section>
+							<img id="Ash" class="character-picture"
+							alt="picture of the character" src="img/ash.png"/>
+							<div class="separator"></div>
+						</section>
+						<h2 id="name2">NomPlayer 2</h2>
+					</section>
+					<img id="imgPokemon2" class="pokemon-picture"
+					alt="pokemon2" src="img/pika.png"/>
+					<h3 id="name-pokemon2">NomPokemon2</h3>
+					</form>
+				</section>
+			</section>
+			
+			<input id="button" type="submit" value="FIGHT !!!" class="bold"/>
+			
+		</div>
+		
+		<div id="modal">
+			<section class="text">
+				<h2 id="nameWinner">NameWinner </h2>
+				<h2 id="Wins"> WINS !!!</h2>
+			</section>
+			<img id="MistyWinner" class="winner-picture picture-inactive"
+			alt="gif misty" src="https://media.giphy.com/media/yd1p7Gp8EdauY/giphy.gif"/>
+			<img id="AshWinner" class="winner-picture "
+			alt="gif ash" src="https://media.giphy.com/media/amrNGnZUeWhZC/giphy.gif"/>
+			<section class="text">
+				<h2 id="nameLoser">NameLoser </h2>
+				<h2 id="Wins">  YOU LOSE  </h2>
+				<h2 id="bet"> Bet </h2>
+			</section>
+			<input id="retry" type="submit" value="GET YOUR REVENGE !!!" class="bold"/>
+		</div>
+		
+		<script src="main.js"></script>
+	</body>
+</html>
